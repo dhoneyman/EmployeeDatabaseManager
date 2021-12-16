@@ -55,4 +55,11 @@ INSERT INTO employees (id, first_name, last_name, role_id, manager_id)
                       (132, 'Jeff', 'Hammies', 13, 141),
                       (141, 'Bella', 'Childress', 14, 151),
                       (151, 'Steve', 'Weenus', 15, 741),
+                      (211, 'Seth', 'Walton', 21, 216),
+                      (212, 'Hugh', 'Jass', 21, 216),
+                      (213, 'Shiam', 'Piam', 21, 216),
+                      (214, 'Freshta', 'Death', 21, 216),
+                      (215, 'Gray', 'Pews', 22, 216),
+                      (216, 'Jesus', 'Christ', 23, 216),
+                      (216, 'Hope', 'Chamameal', 24, 741),
                       (741, 'Frank', 'Ocean', 74, 711);
