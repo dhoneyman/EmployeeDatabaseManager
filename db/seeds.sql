@@ -1,13 +1,13 @@
-INSERT INTO department(id, name)
+INSERT INTO departments (id, name)
 VALUES (1, 'Operations'),
        (2, 'Retail'),
        (3, 'Yoga'),
        (4, 'Fitness'),
        (5, 'Youth Programs'),
-       (6, 'Events')
+       (6, 'Events'),
        (7, 'C_Suite');
 
-INSERT INTO role(id, title, salary, department_id)
+INSERT INTO roles (id, title, salary, department_id)
          VALUES (11, 'gen_staff', 25000, 1),
                 (12, 'asst_man', 30000, 1),
                 (13, 'asst_gen_man', 40000, 1),
@@ -31,11 +31,11 @@ INSERT INTO role(id, title, salary, department_id)
                 (54, 'yp_director', 60000, 5),
                 (61, 'event_lead', 25000, 6),
                 (62, 'event_auditor', 30000, 6),
-                (63, 'events_director', 60000, 6)
+                (63, 'events_director', 60000, 6),
                 (71, 'CEO', 100000, 7),
                 (72, 'CTO', 900000, 7),
                 (73, 'CFO', 900000, 7),
-                (74, 'COO', 900000, 7),
+                (74, 'COO', 900000, 7);
 
 INSERT INTO employees (id, first_name, last_name, role_id, manager_id)
                 VALUES(111, 'Beth', 'Davies', 11, 121),
@@ -49,10 +49,10 @@ INSERT INTO employees (id, first_name, last_name, role_id, manager_id)
                       (119, 'Bob', 'Tomkins', 11, 124),
                       (121, 'Steve', 'Waters', 12, 131),
                       (122, 'Will', 'Stoppers', 12, 131),
-                      (123, 'Jim', 'Jefferies', 12, 131),
-                      (124, 'Rich', 'Poopkins', 12, 131),
+                      (123, 'Jim', 'Jefferies', 12, 132),
+                      (124, 'Rich', 'Poopkins', 12, 132),
                       (131, 'Beau', 'Bridgets', 13, 141),
-                      (131, 'Jeff', 'Hammies', 13, 141),
+                      (132, 'Jeff', 'Hammies', 13, 141),
                       (141, 'Bella', 'Childress', 14, 151),
                       (151, 'Steve', 'Weenus', 15, 741),
-                      (741, 'Frank', 'Ocean', 74, 711),
+                      (741, 'Frank', 'Ocean', 74, 711);
